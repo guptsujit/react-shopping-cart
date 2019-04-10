@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Home from './components/Home';
+import Menubar from './components/Menubar';
+import Mycart from './components/Mycart';
+import Wishlist from './components/Wishlist';
+//import Checkout from './components/Checkout';
+import { Route,BrowserRouter as Router,Switch } from 'react-router-dom'
 class App extends Component {
   render() {
     return (
+ <Router> 
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Menubar></Menubar>
+        <Switch>
+         <Route exact path="/" exact component={Home} />
+         <Route path="/mycart" component={Mycart} />
+       <Route path="/wishlist" component={Wishlist} />
+       </Switch>
       </div>
+ </Router>
     );
   }
 }
