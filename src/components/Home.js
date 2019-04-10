@@ -45,13 +45,13 @@ class Home extends Component {
                     <div className="card-image">
                         <img src={item.img} alt={item.title} />
                     </div>
-
+ <span id="heart" className = {item.class} style={{ cursor: 'pointer'}} onClick={this.addProductToWishlist.bind(this, item.id)}>&hearts;</span>
                     <div className="card-content">
                         {/*<p>{item.desc}</p>*/}
                         <span className="card-title">{item.title}</span>
                         <p><b>Price:  &#8377; {item.price}</b></p>
                         <div to="/" className="btn btn-info" style={{ cursor: 'pointer' }} onClick={this.addProductToCart.bind(this, item.id)}>Add to cart</div>&nbsp;&nbsp;
-                     <div to="/" className="btn btn-info" style={{ cursor: 'pointer' }} onClick={this.addProductToWishlist.bind(this, item.id)}>Add to Wishlist</div>
+                  
                     </div>
                 </div>
 

@@ -65,7 +65,7 @@ class Mycart extends Component {
 
                         <span><Link to="/" className="btn btn-primary"> Continue Shopping </Link></span>&nbsp;&nbsp;
                          <span><Link to="/" className="btn btn-success"> Place Order </Link></span>
-                          <h5 style = {{float : 'right'}}> Total Amount :  {this.props.total}</h5>
+                          <h5 style = {{float : 'right'}}> Amount Payable  &#8377; :  {this.props.total}</h5>
                     </div>
 
                 </div>
