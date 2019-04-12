@@ -35,7 +35,7 @@ class Wishlist extends Component {
             )
 
             return (
-                <div className="container">
+                <div className="container main-container">
                     <div className="cart">
                         <h5>My Wishlist:</h5>
                         <table className="table">
@@ -60,7 +60,7 @@ class Wishlist extends Component {
         } else {
 
             return (
-                <div className="container">
+                <div className="container main-container">
                     <div className="alert alert-warning">
                         Your wishlist is empty.
               </div>

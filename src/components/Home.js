@@ -60,7 +60,7 @@ class Home extends Component {
 
         return (
 
-            <div className="container">
+            <div className="container main-container">
                 <h3 className="center">Our Products</h3>
                 {successDiv}
                 {wishlistMessage}

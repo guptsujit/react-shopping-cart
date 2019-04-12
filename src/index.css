@@ -1,3 +1,13 @@
+.navbar{
+    position: fixed !important;
+    width: 100%;
+}
+.brand-logo{
+    color: #fff;
+}
+.main-container{
+    padding-top: 70px;
+}
 .box{
     display: flex;
     flex-wrap: wrap;
@@ -10,16 +20,14 @@
     padding: 5px;
 }
 .box .product .card-image{
-    height: 250px;
+    height: 400px;
     overflow: hidden;
     margin-bottom: 20px;
 }
 .box .product .card-image img{
     width: 100%;
 }
-.box .product .card-content{
-    
-}
+
 .box .product .card-title{
     display: block;
 }

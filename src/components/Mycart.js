@@ -43,7 +43,7 @@ class Mycart extends Component {
             )
 
             return (
-                <div className="container">
+                <div className="container main-container">
                     <div className="cart">
                         <h5>Your have added listed below items:</h5>
                         <table className="table">
@@ -64,7 +64,7 @@ class Mycart extends Component {
 
 
                         <span><Link to="/" className="btn btn-primary"> Continue Shopping </Link></span>&nbsp;&nbsp;
-                         <span><Link to="/" className="btn btn-success"> Place Order </Link></span>
+                         <span><Link to="/checkout" className="btn btn-success"> Place Order </Link></span>
                           <h5 style = {{float : 'right'}}> Amount Payable  &#8377; :  {this.props.total}</h5>
                     </div>
 
@@ -74,7 +74,7 @@ class Mycart extends Component {
         } else {
 
             return (
-                <div className="container">
+                <div className="container main-container">
                     <div className="alert alert-warning">
                         Your shopping cart is empty.
               </div>

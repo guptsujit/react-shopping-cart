@@ -1,7 +1,7 @@
 
 import fasttrack from '../../assests/images/fasttrack.jpeg'
 import gowns from '../../assests/images/gowns.jpg'
-import headphone from '../../assests/images/headphone.jpeg'
+import gitar from '../../assests/images/gitar.jpeg'
 import iphone from '../../assests/images/iphone.jpeg'
 import nike_shoe from '../../assests/images/nike_shoe.jpeg'
 import sarees from '../../assests/images/sarees.jpeg'
@@ -10,7 +10,7 @@ const initialState = {
     items: [
         { id: 1, title: 'Fast Track', desc: "Simple and comfortable beet watch frm FasTrack..", price: 777, img: fasttrack },
         { id: 2, title: 'Gowns', desc: "Printed Cotton Blend Anarkali Gown.", price: 316, img: gowns },
-        { id: 3, title: 'Headphone', desc: "Bluetooth headphones offer amazing sound quality and powerful bass.", price: 2000, img: headphone },
+        { id: 3, title: 'Gitar', desc: "Bluetooth headphones offer amazing sound quality and powerful bass.", price: 2000, img: gitar },
         { id: 4, title: 'Iphone', desc: "Very nice phone, excellent camera, screen resolution and battery life.", price: 58000, img: iphone },
         { id: 5, title: 'Woodland', desc: "Comfortable , light weight and the build quality is really appreciable.", price: 3000, img: nike_shoe },
         { id: 6, title: 'Sarees', desc: "Beautiful Saree in lowest price.", price: 3600, img: sarees }
